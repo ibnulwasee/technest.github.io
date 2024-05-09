@@ -89,7 +89,7 @@ body {
 .background-container {
   background-image: url('images/top-view-virtual-reality-headset-with-joystick.jpg');
   background-size: cover;
-  height: 380px;
+  /* height: 380px; */
   background-position: center;
   padding: 100px 50px;
   box-shadow: 0 7px 15px rgba(0, 0, 0, 0.15);
@@ -437,7 +437,6 @@ a:hover {
   padding: 20px 0;
   border-top: 3px solid #10a6c4;
   width: 100%;
-  height: 275px;
   margin: 0;
   padding-left: 15px;
   padding-right: 15px;
@@ -725,7 +724,7 @@ body {
 /* Team Section */
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
@@ -769,7 +768,7 @@ body {
 /* Testimonials Section */
 .testimonials-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
@@ -859,3 +858,23 @@ body {
   color: white;
 }
 
+
+
+@media screen and (max-width: 768px) {
+  .feedback-map-container {
+    flex-direction: column;
+  }
+
+  .reviews-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .testimonials-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+}
