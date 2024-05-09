@@ -1,0 +1,861 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f7f9;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #1e1e1e;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-bottom: 4px solid #10a6c4;
+}
+
+.logo-img {
+  max-width: 150px;
+}
+
+.navbar-nav {
+  margin-left: 10px;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 8px;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.right-section .nav-link-text + .nav-icon,
+.right-section .nav-icon + .nav-link-text {
+  margin-left: 15px;
+}
+
+.right-section .nav-icon + .search-container {
+  margin-left: 50px;
+}
+
+/* Navigation link styles */
+.nav-link-text {
+  color: white;
+  margin-right: 0;
+}
+
+.nav-link-text:hover {
+  color: #10a6c4;
+  text-decoration: none;
+}
+
+/* Navigation icon styles */
+.nav-icon {
+  color: #10a6c4;
+  font-size: 1rem;
+}
+
+.nav-icon:hover {
+  color: white;
+}
+
+/* Search bar styles */
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+
+.search-box {
+  width: 200px;
+  height: 40px;
+  padding-right: 40px;
+  border-radius: 20px;
+  border: none;
+  text-indent: 10px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%; /* Center the icon vertically */
+  transform: translateY(-50%);
+  color: #10a6c4;
+  font-size: 1rem;
+}
+
+/* Background container */
+.background-container {
+  background-image: url('images/top-view-virtual-reality-headset-with-joystick.jpg');
+  background-size: cover;
+  height: 380px;
+  background-position: center;
+  padding: 100px 50px;
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.15);
+}
+
+.homepage-title {
+  font-family: 'Lucida Sans', sans-serif;
+  color: #050505;
+}
+
+.homepage-text {
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #050505;
+}
+
+.button-container {
+  margin-top: 30px;
+}
+
+.shop-now-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: white;
+  border: 3px solid #10a6c4;
+  border-radius: 8px;
+  color: #10a6c4;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  font-family: 'Trebuchet MS',  sans-serif;
+
+}
+
+.shop-now-button:hover {
+  background-color: #10a6c4;
+  color: white;
+  border-color: #10a6c4;
+  text-decoration: none;
+}
+
+/* Product categories button styles */
+.product-categories-button {
+  padding: 12px 20px;
+  background-color: #10a6c4;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2.5px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 25px;
+}
+
+.product-categories-button:hover {
+  background-color: white;
+  color: #10a6c4;
+}
+
+/* Styles for product category tiles */
+.product-card {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 10px;
+  text-align: center;
+  margin: 0 15px; /* Left and right margin */
+  margin-bottom: 50px; /* Bottom margin */
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.image-container {
+  height: 100px;
+  width: 100px;
+}
+
+.product-image {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.imagename {
+  margin-top: 15px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* Featured products tiles styles */
+.featured-products {
+  padding: 10px;
+  transition: box-shadow 0.3s ease;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  height: 100%; /* Ensure consistent height */
+  display: flex;
+  flex-direction: column; /* Align content vertically */
+  margin-bottom: 20px; /* Bottom margin */
+}
+
+.featured-products:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.featured-products img {
+  width: 100%; /* Image fills the card */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.product-link {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 16px; /* Increased font size */
+  margin: 10px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #10a6c4;
+}
+
+.product-link:hover{
+  color: black;
+}
+.featured-products-heading {
+  color: #060606; /* Customize as needed */
+  text-align: left;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: 24px; /* Increase font size */
+  margin-bottom: 20px;
+}
+
+.price{
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  font-family: 'Trebuchet MS',sans-serif;
+  justify-content: center;
+}
+
+/* Button styles */
+.btn-view-all{
+  display: inline-block;
+  padding: 10px 20px; /* Adjust padding for desired button size */
+  background-color: #ffff; /* Background color matching the theme */
+  color: #10a6c4; /* White text color */
+  border: none; /* Remove border */
+  border-radius: 8px; /* Rounded corners */
+  text-decoration: none; /* Remove underline from text */
+  font-size: 14px; /* Font size */
+  font-weight: bold; /* Bold text */
+  font-family: 'Trebuchet MS', sans-serif;
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Hover effects */
+.btn-view-all:hover {
+  background-color: #10a6c4; /* Darker background color on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Stronger shadow on hover */
+  transform: translateY(-1px); /* Slight upward movement on hover */
+  color: #ffffff;
+}
+
+
+
+/* CSS */
+/* Login page styles */
+input,
+textarea {
+    /* Styles for input and textarea fields */
+    background-color: #f3e5f5;
+    border-radius: 150px;
+    padding: 12px 15px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #f3e5f5;
+    font-size: 18px;
+    color: #000;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+#logo {
+    /* Styles for the logo image */
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 5px;
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input:focus,
+textarea:focus {
+    /* Styles for input and textarea fields when focused */
+    box-shadow: none;
+    border: 1px solid #10a6c4;
+    outline-width: 0;
+    font-weight: 400;
+}
+
+button:focus {
+    /* Styles for button when focused */
+    box-shadow: none;
+    outline-width: 0;
+}
+
+.login-card {
+    /* Styles for the login card */
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    padding: 10px 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 500px; /* Square-shaped box */
+    background-color: white;
+    height: 650px; /* Square-shaped box */
+}
+
+.heading {
+    /* Styles for the heading text */
+    margin-bottom: 30px;
+    color: #10a6c4;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+::placeholder {
+    /* Styles for placeholder text in input and textarea fields */
+    color: #000;
+    opacity: 1;
+}
+
+.form-control-label {
+    /* Styles for form control labels */
+    font-size: 14px;
+    margin-left: 10px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.btn-color {
+    /* Styles for the main button */
+    border-radius: 50px;
+    color: #fff;
+    background-color: #10a6c4;
+    padding: 12px;
+    cursor: pointer;
+    border: none;
+    margin-top: 40px;
+    width: 50%;
+}
+
+.btn-color:hover {
+    /* Hover effect for the main button */
+    color: #10a6c4;
+    border: 2px solid #10a6c4;
+    background-color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+a {
+    /* Styles for anchor links */
+    color: #10a6c4;
+    text-decoration: none;
+}
+
+a:hover {
+    /* Hover effect for anchor links */
+    color: #000;
+}
+
+.bottom {
+    /* Styles for the bottom text */
+    width: 100%;
+    margin-top: 10px;
+    text-align: center; /* Aligns text in the center */
+}
+
+.sm-text {
+    /* Styles for the smaller text */
+    font-size: 16px;
+    color: #10a6c4;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+}
+
+.sm-text:hover {
+    /* Hover effect for the smaller text */
+    color: #030303;
+    text-decoration: underline;
+}
+
+.forget-password-link {
+    /* Styles for the "Forgot Password?" link */
+    font-size: 14px;
+    color: #10a6c4;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+
+.forget-password-link:hover {
+    /* Hover effect for the "Forgot Password?" link */
+    color: #030303;
+    text-decoration: underline;
+}
+
+/* Login container styles */
+.login-container {
+    display: flex;
+    justify-content: center; /* Centers the card */
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f7f9;
+    /* Ensure the background color/gradient extends to the footer */
+    height: 100vh;
+    background: linear-gradient(to bottom , white, #10a6c4)
+}
+
+
+/* Footer styles */
+.footer {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 20px 0;
+  border-top: 3px solid #10a6c4;
+  width: 100%;
+  height: 275px;
+  margin: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.footer-heading {
+  color: #10a6c4;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-list li {
+  margin-bottom: 8px;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #10a6c4;
+  transform: translateY(-3px);
+}
+
+.footer-social-icons {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 15px;
+}
+
+.footer-social-icons li {
+  font-size: 1.5rem;
+}
+
+.footer-social-icons li:last-child {
+  margin-right: 0;
+}
+
+.footer p {
+  color: #d4d4d4;
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Styles for Download App section */
+.download-options a {
+  display: block;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.download-options a img {
+  /* Set the width and height of the images */
+  width: 120px;  /* Adjust the width as needed */
+  height: auto;  /* Maintain aspect ratio */
+}
+
+.download-options a:hover {
+  transform: scale(1.05);
+}
+
+
+
+/* Customer Reviews Section */
+#customer-reviews {
+  padding: 30px 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.reviews-heading {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+}
+
+.review-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.reviewer-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.review-content h4 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.review-text {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.review-rating {
+  font-size: 16px;
+  color: #f39c12;
+}
+
+
+/* Feedback Section */
+#feedback-section {
+  padding: 40px;
+  background-color: #f4f6f8;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+
+.feedback-heading {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.feedback-map-container {
+  display: flex;
+  gap: 30px;
+}
+
+.feedback-form-container,
+.map-container {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feedback-form-container:hover,
+.map-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.feedback-form {
+  padding: 10px;
+}
+
+.feedback-form h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #c4d0dd;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #4a90e2;
+}
+
+.submit-button {
+  background-color: #10a6c4;
+  color: white;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  font-weight: bold;
+}
+
+.submit-button:hover {
+  background-color: #118ea7;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.map-frame {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+
+/* General Styles */
+body {
+  font-family: 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/*About Us*/
+
+/* About Us Page */
+#about-us-page {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Hero Banner */
+.hero-banner {
+  background-color: #10a6c4;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero-banner h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-banner p {
+  font-size: 18px;
+}
+
+/* Sections */
+.section {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.section p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Team Section */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.team-card {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.team-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.team-card h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.team-card p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.4;
+}
+
+.post{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Testimonials Section */
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.testimonial-card {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.testimonial-card p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.testimonial-card h4 {
+  font-size: 14px;
+  color: #333;
+}
+
+/* General Styles */
+body {
+  font-family: 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Empty Wishlist Page */
+.empty-wishlist-page {
+  text-align: center;
+  margin-top: 80px; /* Adjust margin for centering */
+}
+
+.empty-wishlist-content {
+  padding: 40px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.empty-wishlist-icon {
+  font-size: 80px;
+  color: #d9534f; /* Choose a color that contrasts with the background */
+  margin-bottom: 20px;
+}
+
+.empty-wishlist-heading {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.empty-wishlist-text {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.start-shopping-btn {
+  background-color: #10a6c4;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.start-shopping-btn:hover {
+  background-color: #0d8da7;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: white;
+}
+

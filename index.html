@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="width=device-width, initial-scale=1.0">
+    <title>Tech Nest | Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <style>
+        html {
+    scroll-behavior: smooth;
+}
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark shadow-navbar">
+            <a class="navbar-brand" href="/index.html">
+                <img src="images/IMG_8171.JPEG.jpg" class="logo-img" alt="Tech Nest logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Navigation Links -->
+                <ul class="navbar-nav ml-3">
+                    <li class="nav-item active"><a class="nav-link" href="/index.html">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">New Arrivals</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Phone</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Laptop</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Camera</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">PC Components</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Gaming Accessories</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#latest-products">Latest Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact-us">Contact</a></li>
+                </ul>
+
+                <!-- Spacer -->
+                <div class="flex-grow-1"></div>
+
+                <!-- Right Section -->
+                <div class="right-section d-flex align-items-center">
+                    <a href="/login.html" class="nav-link-text">Account</a>
+                    <a href="#" class="nav-icon ml-2"><i class="fas fa-user"></i></a>
+                    <a href="/wishlist.html" class="nav-link-text">Wishlist</a>
+                    <a href="#" class="nav-icon ml-2"><i class="fas fa-heart"></i></a>
+                    <a href="/cart.html" class="nav-link-text">Cart</a>
+                    <a href="#" class="nav-icon ml-2"><i class="fas fa-shopping-cart"></i></a>
+
+                    <!-- Search Bar -->
+                    <div class="search-container">
+                        <input type="text" class="form-control search-box" placeholder="Search...">
+                        <i class="fa fa-search search-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Content -->
+    <div class="main-content">
+
+        <!-- Background Container -->
+        <div class="background-container">
+            <h1 class="homepage-title">Nurturing your<br>Tech Needs!</h1>
+            <p class="homepage-text">Tech Nest brings you the latest and most innovative tech gadgets at unbeatable prices.<br>Shop a wide selection of original products. Enjoy exceptional customer service as we nurture your tech needs.</p>
+            <!-- Shop Now Button -->
+            <div class="button-container">
+                <a href="#latest-products" class="shop-now-button">Shop Now</a>
+            </div>
+        </div>
+
+        <!-- Product Categories Section -->
+        <div class="container mt-5">
+            <div class="d-flex justify-content-center align-items-center">
+                <button class="product-categories-button">Product Categories</button>
+            </div>
+            <div class="row mt-4 g-4">
+                <!-- Product Card: Phone -->
+                <div class="col-md-3">
+                    <div class="card product-card">
+                        <div class="d-flex justify-content-between align-items-center card-content">
+                            <div class="flex-column lh-1 imagename">
+                                <span>Phone</span>
+                            </div>
+                            <div class="image-container">
+                                <img src="images/phone.webp" class="product-image" alt="Phone">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card: Laptop -->
+            <div class="col-md-3">
+                <div class="card product-card">
+                    <div class="d-flex justify-content-between align-items-center card-content">
+                        <div class="flex-column lh-1 imagename">
+                            <span>Laptop</span>
+                        </div>
+                        <div class="image-container">
+                            <img src="images/laptop.webp" class="product-image" alt="Laptop">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product Card: Monitor -->
+            <div class="col-md-3">
+                <div class="card product-card">
+                    <div class="d-flex justify-content-between align-items-center card-content">
+                        <div class="flex-column lh-1 imagename">
+                            <span>Monitor</span>
+                        </div>
+                        <div class="image-container">
+                            <img src="images/monitor.jpg" class="product-image" alt="Monitor">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product Card: Camera -->
+            <div class="col-md-3">
+                <div class="card product-card">
+                    <div class="d-flex justify-content-between align-items-center card-content">
+                        <div class="flex-column lh-1 imagename">
+                            <span>Camera</span>
+                        </div>
+                        <div class="image-container">
+                            <img src="images/camera.jpg" class="product-image" alt="Camera">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product Card: Headphone -->
+            <div class="col-md-3">
+                <div class="card product-card">
+                    <div class="d-flex justify-content-between align-items-center card-content">
+                        <div class="flex-column lh-1 imagename">
+                            <span>Headphone</span>
+                        </div>
+                        <div class="image-container">
+                            <img src="images/headphones.jpg" class="product-image" alt="Headphone">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product Card: Keyboard -->
+            <div class="col-md-3">
+                <div class="card product-card">
+                    <div class="d-flex justify-content-between align-items-center card-content">
+                        <div class="flex-column lh-1 imagename">
+                            <span>Keyboard</span>
+                        </div>
+                        <div class="image-container">
+                            <img src="images/keyboard.jpg" class="product-image" alt="Keyboard">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product Card: Mouse -->
+            <div class="col-md-3">
+                <div class="card product-card">
+                    <div class="d-flex justify-content-between align-items-center card-content">
+                        <div class="flex-column lh-1 imagename">
+                            <span>Mouse</span>
+                        </div>
+                        <div class="image-container">
+                            <img src="images/mouse.jpg" class="product-image" alt="Mouse">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product Card: Components -->
+            <div class="col-md-3">
+                <div class="card product-card">
+                    <div class="d-flex justify-content-between align-items-center card-content">
+                        <div class="flex-column lh-1 imagename">
+                            <span>Components</span>
+                        </div>
+                        <div class="image-container">
+                            <img src="images/components.webp" class="product-image" alt="Components">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+        </div>
+
+        <div>
+        <!-- Featured Products Section -->
+        <div id="featured" class="container mt-5">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h2 class="featured-products-heading">Featured Products</h2>
+                <!-- "View All" Button -->
+                <div class="view-all-container text-right mt-3">
+                    <a href="#" class="btn-view-all">View All</a>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Tile 1 -->
+                <div class="col-md-2">
+                    <div class="card featured-products left-tile">
+                        <div class="product-image-container">
+                            <img src="images/ip15promax.jpg" alt="iPhone 15 Pro Max 1TB">
+                        </div>
+                        <div class="product-info">
+                            <a href="#" class="product-link">
+                                iPhone 15 Pro Max<br>(1TB Official)<br> <br>
+                            </a>
+                            <span class="price">Tk 2,05,000</span>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Tile 2 -->
+            <div class="col-md-2">
+                <div class="card featured-products">
+                    <div class="product-image-container">
+                        <img src="images/mac.webp" alt="Apple MacBook Pro M3 Chip">
+                    </div>
+                    <div class="product-info">
+                        <a href="#" class="product-link">
+                            Apple MacBook Pro M3 Chip<br>(14 inch)
+                        </a>
+                        <span class="price">Tk 2,10,000</span>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Tile 3 -->
+            <div class="col-md-2">
+                <div class="card featured-products">
+                    <div class="product-image-container">
+                        <img src="images/graphicscard.webp" alt="MSI GeForce RTX 4080 SUPER">
+                    </div>
+                    <div class="product-info">
+                        <a href="#" class="product-link">
+                            MSI GeForce RTX 4080 SUPER<br>16GB
+                        </a>
+                        <span class="price">Tk 1,89,000</span>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Tile 4 -->
+            <div class="col-md-2">
+                <div class="card featured-products">
+                    <div class="product-image-container">
+                        <img src="images/gamepad.webp" alt="Redragon G808-PRO HARROW">
+                    </div>
+                    <div class="product-info">
+                        <a href="#" class="product-link">
+                            Redragon G808-PRO HARROW<br>Wireless Gamepad
+                        </a>
+                        <span class="price">Tk 3,550</span>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Tile 5 -->
+            <div class="col-md-2">
+                <div class="card featured-products">
+                    <div class="product-image-container">
+                        <img src="images/acerlaptop.webp" alt="Acer Chromebook 514 CB514-1W">
+                    </div>
+                    <div class="product-info">
+                        <a href="#" class="product-link">
+                            Acer Chromebook 514 CB514-1W<br>(i3 11th Gen)
+                        </a>
+                        <span class="price">Tk 61,000</span>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Tile 6 -->
+            <div class="col-md-2">
+                <div class="card featured-products right-tile">
+                    <div class="product-image-container">
+                        <img src="images/intelcorei9.webp" alt="Intel Core i9 14900K">
+                    </div>
+                    <div class="product-info">
+                        <a href="#" class="product-link">
+                            Intel Core i9 14900K<br>(14th Gen)
+                        </a>
+                        <span class="price">Tk 71,200</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<div>
+        <!-- Latest Products Section -->
+        <div id="latest-products"><div id="featured-products" class="container mt-5">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h2 class="featured-products-heading">Latest Products</h2>
+                <!-- "View All" Button -->
+                <div class="view-all-container text-right mt-3">
+                    <a href="#" class="btn-view-all">View All</a>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Tile 1 -->
+                <div class="col-md-2">
+                    <div class="card featured-products left-tile">
+                        <div class="product-image-container">
+                            <img src="images/pocket-2-creator-combo-01-500x500.jpg" alt="DJI Osmo Pocket 2 Gimbal Stabilizer Action Camera">
+                        </div>
+                        <div class="product-info">
+                            <a href="#" class="product-link">
+                                DJI Osmo Pocket 2 Gimbal Stabilizer Action Camera
+                            </a>
+                            <span class="price">Tk 48,000</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tile 2 -->
+                <div class="col-md-2">
+                    <div class="card featured-products">
+                        <div class="product-image-container">
+                            <img src="images/mini-4-pro-500x500.webp" alt="DJI Mini 4 Pro Drone">
+                        </div>
+                        <div class="product-info">
+                            <a href="#" class="product-link">
+                                DJI Mini 4 Pro Drone<br><br>
+                            </a>
+                            <span class="price">Tk 1,60,000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tile 3 -->
+                <div class="col-md-2">
+                    <div class="card featured-products">
+                        <div class="product-image-container">
+                            <img src="images/MSI Raider GE78 HX 14VHG Core i9.webp" alt="MSI Raider GE78 HX 14VHG Core i9">
+                        </div>
+                        <div class="product-info">
+                            <a href="#" class="product-link">
+                                MSI Raider GE78 HX 14VHG Core i9<br>(14th Generation)
+                            </a>
+                            <span class="price">Tk 4,89,000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tile 4 -->
+                <div class="col-md-2">
+                    <div class="card featured-products">
+                        <div class="product-image-container">
+                            <img src="images/Xiaomi Note 13 Pro.webp" alt="Xiaomi Note 13 Pro">
+                        </div>
+                        <div class="product-info">
+                            <a href="#" class="product-link">
+                               Xiaomi Note 13 Pro<br><br>(8/256 GB)<br>
+                            </a>
+                            <span class="price">Tk 78,550</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tile 5 -->
+                <div class="col-md-2">
+                    <div class="card featured-products">
+                        <div class="product-image-container">
+                            <img src="images/MSI CH12O Gaming.jpeg" alt="MSI MAG CH120 Gaming Chair">
+                        </div>
+                        <div class="product-info">
+                            <a href="#" class="product-link">
+                                MSI MAG CH120<br>Gaming Chair<br><br>
+                            </a>
+                            <span class="price">Tk 24,990</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tile 6 -->
+                <div class="col-md-2">
+                    <div class="card featured-products right-tile">
+                        <div class="product-image-container">
+                            <img src="images/Samsung ODYSSEY G9 LS49CG930SW 49.webp">
+                        </div>
+                        <div class="product-info">
+                            <a href="#" class="product-link">
+                                Samsung ODYSSEY G9 49<br>(49" Inch)
+                            </a>
+                            <span class="price">Tk 80,200</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- New Row -->
+            <div class="row mt-4">
+                <!-- Tile 7 -->
+                <div class="col-md-2">
+                    <div class="card featured-products">
+                        <div class="product-image-container">
+                            <img src="images/HP Color LaserJet Professional CP5225dn.jpg" alt="HP Color LaserJet Professional CP5225dn">
+                        </div>
+                        <div class="product-info">
+                            <a href="#" class="product-link">
+                                HP Color LaserJet Professional CP5225dn Printer
+                            </a>
+                            <span class="price">Tk 183,000</span> <!-- Update price -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Tile 8 -->
+                <div class="col-md-2">
+                    <div class="card featured-products">
+                        <div class="product-image-container">
+                            <img src="images/Team T-FORCE Z540 1TB M.2 Gen5 PCIe NVMe Gaming SSD.webp">
+                        </div>
+                        <div class="product-info">
+                            <a href="#" class="product-link">
+                                Team T-FORCE Z540 M2 SSD <br> (1 TB)
+                            </a>
+                            <span class="price">Tk 21,000</span> <!-- Update price -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tile 9 -->
+                <div class="col-md-2">
+                    <div class="card featured-products">
+                        <div class="product-image-container">
+                            <img src="images/oneplus 11.webp">
+                        </div>
+                        <div class="product-info">
+                            <a href="#" class="product-link">
+                                OnePlus 11<br>(8/128 GB)<br><br>
+                            </a>
+                            <span class="price">Tk 82,000</span> <!-- Update price -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tile 10 -->
+                <div class="col-md-2">
+                    <div class="card featured-products">
+                        <div class="product-image-container">
+                            <img src="images/nikon-d500-01-500x500.jpg">
+                        </div>
+                        <div class="product-info">
+                            <a href="#" class="product-link">
+                               Nikon D500 DSLR Camera<br><br>
+                            </a>
+                            <span class="price">Tk 1,20,000</span> <!-- Update price -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tile 11 -->
+                <div class="col-md-2">
+                    <div class="card featured-products">
+                        <div class="product-image-container">
+                            <img src="images/galaxy-s24-ultra-titanium-black-01-500x500.webp">
+                        </div>
+                        <div class="product-info">
+                            <a href="#" class="product-link">
+                                Samsung Galaxy S24 Ultra <br> Titanium
+                            </a>
+                            <span class="price">Tk 1,73,000</span> <!-- Update price -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tile 12 -->
+                <div class="col-md-2">
+                    <div class="card featured-products right-tile">
+                        <div class="product-image-container">
+                            <img src="images/Thermaltake Level 20 Tempered Glass Edition Full-Tower RGB Gaming Case.webp">
+                            <div class="product-info">
+                                <a href="#" class="product-link">
+                                    Thermaltake Glass Edition Gaming Case <br>
+                                </a>
+                                <span class="price">Tk 32,000</span> <!-- Update price -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    
+        
+    <div>  
+        <!-- Customer Reviews Section -->
+        <div id="customer-reviews" class="container mt-5">
+            <h2 class="reviews-heading text-center">Customer Reviews</h2>
+            <div class="reviews-grid">
+                <!-- Review 1 -->
+                <div class="review-card">
+                    <div class="review-image-container">
+                        <img src="images/sir.jpg" alt="Reviewer 1" class="reviewer-image">
+                    </div>
+                    <div class="review-content">
+                        <h4>Shahriar Ahmed Israfil</h4>
+                        <p class="review-text">
+                            "Amazing products and top-notch customer service. Highly recommend this store!"
+                        </p>
+                        <span class="review-rating">★★★★★</span>
+                    </div>
+                </div>
+                 <!-- Review 3 -->
+            <div class="review-card">
+                <div class="review-image-container">
+                    <img src="images/mahfuj bhai.jpg" alt="Reviewer 3" class="reviewer-image">
+                </div>
+                <div class="review-content">
+                    <h4>Mahfuj Saklayan</h4>
+                    <p class="review-text">
+                        "Quick delivery and excellent customer support. I will definitely shop here again!"
+                    </p>
+                    <span class="review-rating">★★★★★</span>
+                </div>
+                </div>
+                <!-- Review 2 -->
+            <div class="review-card">
+                <div class="review-image-container">
+                    <img src="images/dm.png" alt="Reviewer 2" class="reviewer-image">
+                </div>
+                <div class="review-content">
+                    <h4>DM Tanvir Ferdous</h4>
+                    <p class="review-text">
+                        "I had a fantastic shopping experience. The products are of great quality!"
+                    </p>
+                    <span class="review-rating">★★★★☆</span>
+                </div>            
+            </div>
+           
+            </div>
+            </div>
+        </div>
+
+        <!-- Feedback Section -->
+        <div id="feedback-section" class="container mt-5">
+            <h2 class="feedback-heading text-center">We Value Your Feedback</h2>
+            <div class="feedback-map-container">
+                <!-- Feedback Form -->
+                <div class="feedback-form-container">
+                    <div class="feedback-form">
+                        <h3>Leave Us Your Feedback</h3>
+                        <form id="feedback-form">
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" required placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required placeholder="Your Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="feedback">Feedback:</label>
+                                <textarea id="feedback" name="feedback" rows="6" required placeholder="Your Feedback"></textarea>
+                            </div>
+                            <button type="submit" class="submit-button">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- Map Area -->
+                <div class="map-container">
+                    <h3 class="map-heading">Find Our Store</h3>
+                    <div class="map-frame">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14593.580847157817!2d90.31000204894409!3d23.875600557359405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c23dd12bbc75%3A0x313d214552eabe56!2sDaffodil%20Smart%20City!5e0!3m2!1sen!2sbd!4v1715258103149!5m2!1sen!2sbd"
+                            width="500" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Contact Information Column -->
+                <div class="col-lg-3 col-md-6 footer-column">
+                    <div id="contact-us">
+                    <h5 class="footer-heading">Contact Us</h5>
+                    <ul class="footer-list">
+                        <li><i class="fas fa-map-marker-alt"></i> 25/2 DSC, Savar, Dhaka</li>
+                        <li><i class="fas fa-phone-alt"></i> +8801712-345678</li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:help@technest.com" class="footer-link">help@technest.com</a></li>
+                    </ul>
+                </div>
+                </div>
+    
+                <!-- Quick Links Column -->
+                <div class="col-lg-3 col-md-6 footer-column">
+                    <h5 class="footer-heading">Quick Links</h5>
+                    <ul class="footer-list">
+                        <li><a href="/index.html" class="footer-link">Home</a></li>
+                        <li><a href="about.html" class="footer-link">About Us</a></li>
+                        <li><a href="#" class="footer-link">Services</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Social Media Column -->
+                <div class="col-lg-3 col-md-6 footer-column">
+                    <h5 class="footer-heading">Follow Us</h5>
+                    <ul class="footer-social-icons">
+                        <li><a href="#" class="footer-link"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#" class="footer-link"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#" class="footer-link"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#" class="footer-link"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+    
+                <!-- Download App Section -->
+                <div class="col-lg-3 col-md-6 footer-column">
+                    <h5 class="footer-heading">Download App</h5>
+                    <div class="download-options">
+                        <a href="#" class="footer-link">
+                            <img src="images/icon-play-store.png" alt="Download from Google Play">
+                        </a>
+                        <a href="#" class="footer-link">
+                            <img src="images/icon-app-store.png" alt="Download from App Store">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom text-center mt-4">
+                <p>&copy; 2024 Tech Nest. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Include Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    
+    
+        <!-- Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

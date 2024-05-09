@@ -1,0 +1,206 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .shopping-cart {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-heading {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+  
+  /* Column Labels with Customizable Gaps */
+.column-labels {
+    display: grid;
+    grid-template-columns: 100px 324px 80px 195px 80px 200px; /* Customize the column widths */
+    column-gap: 20px; /* Customize the gap size between columns */
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #555;
+    font-weight: bold;
+}
+
+/* Adjust the column widths according to your requirements */
+.column-labels label {
+    text-align: left; /* Align text as needed */
+}
+
+  
+  /* Products */
+  .product {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    align-items: center;
+  }
+  
+  .product:last-child {
+    border-bottom: none;
+  }
+  
+  .product-image img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+  }
+  
+  .product-details {
+    flex-basis: 300px;
+    padding: 0 10px;
+  }
+  
+  .product-title {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .product-description {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .product-price,
+  .product-line-price,
+  .product-quantity input {
+    color: #555;
+  }
+  
+  .product-quantity input {
+    width: 40px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .product-removal button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .product-removal button:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Totals Section */
+  .totals {
+    margin-top: 20px;
+  }
+  
+  .totals-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    color: #333;
+  }
+  
+  .totals-item label {
+    font-weight: bold;
+  }
+  
+  .totals-value {
+    color: #555;
+  }
+  
+  .totals-item-total {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+    font-weight: bold;
+  }
+ 
+  /* Cool CSS Design for Coupon Section and Checkout Button */
+.coupon-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #fafbfd;
+    border: 1px solid #d4dfe9;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.coupon-section:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.coupon-section label {
+    font-weight: bold;
+    margin-right: 20px;
+    color: black;
+}
+
+.coupon-section input {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #c4d0dd;
+    margin-right: 10px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    background-color: #dddada;
+}
+
+.coupon-section input:focus {
+    border-color: #10a6c4;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+.apply-coupon {
+    background-color: #10a6c4;
+    color: white;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.apply-coupon:hover {
+    background-color: #feffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    color: #10a6c4;
+}
+
+/* Checkout Button */
+.checkout {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    background-color: #10a6c4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.checkout:hover {
+    background-color: #3b78c2;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+  

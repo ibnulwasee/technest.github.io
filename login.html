@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="width=device-width, initial-scale=1.0">
+    <title>Tech | Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <style>
+        html {
+    scroll-behavior: smooth;
+}
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark shadow-navbar">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/IMG_8171.JPEG.jpg" class="logo-img" alt="Tech Nest logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Navigation Links -->
+                <ul class="navbar-nav ml-3">
+                    <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">New Arrivals</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Phone</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Laptop</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Camera</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">PC Components</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Gaming Accessories</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="/index.html">Latest Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact-us">Contact</a></li>
+                </ul>
+
+                <!-- Spacer -->
+                <div class="flex-grow-1"></div>
+
+                <!-- Right Section -->
+                <div class="right-section d-flex align-items-center">
+                    <a href="/login.html" class="nav-link-text">Account</a>
+                    <a href="#" class="nav-icon ml-2"><i class="fas fa-user"></i></a>
+                    <a href="/wishlist.html" class="nav-link-text">Wishlist</a>
+                    <a href="#" class="nav-icon ml-2"><i class="fas fa-heart"></i></a>
+                    <a href="/cart.html" class="nav-link-text">Cart</a>
+                    <a href="#" class="nav-icon ml-2"><i class="fas fa-shopping-cart"></i></a>
+
+                    <!-- Search Bar -->
+                    <div class="search-container">
+                        <input type="text" class="form-control search-box" placeholder="Search...">
+                        <i class="fa fa-search search-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HTML -->
+<div class="login-container">
+    <div class="login-card">
+        <div class="row justify-content-center my-auto">
+            <div class="col-md-8 col-10 my-5">
+                <div class="row justify-content-center px-3 mb-3">
+                    <img id="logo" src="images/IMG_8330.JPEG.jpg" alt="Logo">
+                </div>
+                <h3 class="mb-5 text-center heading">Tech Nest</h3>
+                <div class="form-group">
+                    <label class="form-control-label">Username</label>
+                    <input type="text" id="email" name="email" placeholder="Phone or E-mail" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label">Password</label>
+                    <input type="password" id="psw" name="psw" placeholder="Password" class="form-control">
+                </div>
+                <div class="row justify-content-center my-3 px-3">
+                    <button class="btn-block btn-color">Login</button>
+                </div>
+                <div class="bottom text-center my-2">
+                    <a href="#" class="forget-password-link">Forgot Password?</a>
+                    </div>
+                    <div>
+                    <a href="#" class="sm-text">Don't have an account? Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Include Bootstrap JavaScript and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+</body>
+
+  <!-- Footer Section -->
+  <footer class="footer py-5">
+    <div class="container">
+        <div class="row">
+            <!-- Contact Information Column -->
+            <div class="col-lg-3 col-md-6 footer-column">
+                <div id="contact-us">
+                <h5 class="footer-heading">Contact Us</h5>
+                <ul class="footer-list">
+                    <li><i class="fas fa-map-marker-alt"></i> 25/2 DSC, Savar, Dhaka</li>
+                    <li><i class="fas fa-phone-alt"></i> +8801712-345678</li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:help@technest.com" class="footer-link">help@technest.com</a></li>
+                </ul>
+            </div>
+            </div>
+
+            <!-- Quick Links Column -->
+            <div class="col-lg-3 col-md-6 footer-column">
+                <h5 class="footer-heading">Quick Links</h5>
+                <ul class="footer-list">
+                    <li><a href="/index.html" class="footer-link">Home</a></li>
+                    <li><a href="about.html" class="footer-link">About Us</a></li>
+                    <li><a href="#" class="footer-link">Services</a></li>
+                </ul>
+            </div>
+
+            <!-- Social Media Column -->
+            <div class="col-lg-3 col-md-6 footer-column">
+                <h5 class="footer-heading">Follow Us</h5>
+                <ul class="footer-social-icons">
+                    <li><a href="#" class="footer-link"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#" class="footer-link"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" class="footer-link"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#" class="footer-link"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+
+            <!-- Download App Section -->
+            <div class="col-lg-3 col-md-6 footer-column">
+                <h5 class="footer-heading">Download App</h5>
+                <div class="download-options">
+                    <a href="#" class="footer-link">
+                        <img src="images/icon-play-store.png" alt="Download from Google Play">
+                    </a>
+                    <a href="#" class="footer-link">
+                        <img src="images/icon-app-store.png" alt="Download from App Store">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center mt-4">
+            <p>&copy; 2024 Tech Nest. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Include Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
