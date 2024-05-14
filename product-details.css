@@ -1,0 +1,125 @@
+/* External CSS File: styles.css */
+
+/* General styles */
+body {
+    background-color: #f8f9fa; /* Light gray background */
+    font-family: 'Arial', sans-serif; /* Font family */
+}
+
+/* Container styling */
+.container {
+    padding: 50px; /* Add padding around the container */
+}
+
+/* Main image styling */
+
+.main-image img {
+    width: 100%; /* Make the main image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Subtle shadow */
+    margin-bottom: 20px;
+}
+
+
+/* Product information styling */
+.product-information {
+    padding: 20px; /* Add padding around product info */
+}
+
+.product-name {
+    font-size: 24px; /* Large font size */
+    font-weight: bold; /* Bold font weight */
+}
+
+.product-description p {
+    font-size: 14px; /* Smaller font size for description */
+    color: #666; /* Dark gray text color */
+    line-height: 1.5; /* Improved line height */
+    margin-top: 15px; /* Margin between elements */
+}
+
+/* Product price styling */
+.product-price {
+    font-size: 20px; /* Larger font size for price */
+    font-weight: bold; /* Bold font weight */
+    color: #10A6C4; /* Blue color */
+    margin-top: 15px; /* Margin between elements */
+}
+
+/* Ratings and reviews styling */
+.product-ratings-reviews {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; /* Margin between elements */
+}
+
+.product-ratings-reviews .rating-stars {
+    color: #f8d12f; /* Yellow color for stars */
+    font-size: 18px; /* Font size for stars */
+}
+
+
+/* Available colors styling */
+.product-colors {
+    margin-top: 20px; /* Margin between elements */
+}
+
+.product-colors .color-options {
+    display: flex; /* Flex layout */
+}
+
+.product-colors .color-swatch {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; /* Circular swatches */
+    margin-right: 10px; /* Margin between swatches */
+    transition: opacity 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Action buttons styling */
+.product-actions {
+    margin-top: 30px; /* Margin between elements */
+    display: flex; /* Flex layout */
+    gap: 10px; /* Margin between buttons */
+}
+
+.buy-now-button{
+    padding: 12px 24px; /* Padding around buttons */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Larger font size */
+    font-weight: bold; /* Bold font weight */
+    transition: all 0.3s ease; /* Smooth transition */
+    border: 1px solid rgb(157, 154, 154);
+}
+.add-to-cart-button {
+    padding: 12px 24px; /* Padding around buttons */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Larger font size */
+    font-weight: bold; /* Bold font weight */
+    transition: all 0.3s ease; /* Smooth transition */
+    border: 1px rgb(148, 145, 145);
+}
+
+/* Buy Now button styling */
+.buy-now-button {
+    background-color: #10A6C4; /* Blue background */
+    color: white; /* White text color */
+}
+
+.buy-now-button:hover {
+   
+    color: #000000;
+}
+
+/* Add to Cart button styling */
+.add-to-cart-button {
+    background-color: white; /* White background */
+    color: #6c757d; /* Gray text color */
+    border: 2px solid #6c757d; /* Gray border */
+}
+
+.add-to-cart-button:hover {
+    background-color: #6c757d; /* Gray background on hover */
+    color: white; /* White text color on hover */
+}
